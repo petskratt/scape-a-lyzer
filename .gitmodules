@@ -1,0 +1,3 @@
+[submodule "regolibrary"]
+	path = regolibrary
+	url = https://github.com/kubescape/regolibrary

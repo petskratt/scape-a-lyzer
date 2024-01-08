@@ -25,8 +25,12 @@ Enjoy the result!
 
 ## Example
 
-Sample output from run on fresh https://github.com/k3d-io/k3d cluster is in `/examples`
+Sample output from run on fresh [K3D](https://github.com/k3d-io/k3d]) cluster is [/examples/sample.html](/examples/sample.html).
 
-## Requirements
+## Requirements / installation
 
-Runs on PHP 8.3.1 + YAML extension (https://www.php.net/manual/en/book.yaml.php)
+GIT: [https://github.com/petskratt/scape-a-lyzer](https://github.com/petskratt/scape-a-lyzer)
+
+Requires initialisation of `kubescape/regolibrary` submodule.
+
+Runs on fine PHP 8.3.1 + [YAML extension](https://www.php.net/manual/en/book.yaml.php).

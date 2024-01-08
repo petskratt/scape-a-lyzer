@@ -3,12 +3,17 @@ peeter.marvet@vaimo.com / 2023-01-08
 
 This is a PoC for what I'd like to see in Kubescape HTML output when auditing a K8S setup:
 
-* failed controls:
+* **failed controls:**
 - problem description
 - how it was detected / how to check fix
 - remediation as description and sample, references
 - list of failing manifests
 - ... with easy access to check
+
+Some issues that seemed to be pointing towards similar output:
+* [https://github.com/kubescape/kubescape/issues/817](https://github.com/kubescape/kubescape/issues/817)
+* [https://github.com/kubescape/kubescape/issues/1563](https://github.com/kubescape/kubescape/issues/1563)
+
 
 Note: code is extremely ad-hoc, written while trying to make up my mind about what I actually want.
 

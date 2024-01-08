@@ -30,7 +30,7 @@ Enjoy the result!
 
 ## Example
 
-Sample output from run on fresh [K3D](https://github.com/k3d-io/k3d]) cluster is [/examples/sample.html](/examples/sample.html).
+Sample output from run on fresh [K3D](https://github.com/k3d-io/k3d]) cluster is [examples/sample.html](examples/sample.html).
 
 ## Requirements / installation
 

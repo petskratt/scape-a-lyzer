@@ -1,4 +1,5 @@
 # scape-a-lyzer
+peeter.marvet@vaimo.com / 2023-01-08
 
 This is a PoC for what I'd like to see in Kubescape HTML output when auditing a K8S setup:
 
@@ -20,6 +21,10 @@ kubescape scan framework cis-v1.23-t1.0.1,allcontrols --format json --output /tm
 ```
 
 Convert `.json` to `.html`
+
+```
+php -d memory_limit=1024M scape-a-lyzer.php /tmp/scape.json > /tmp/scape.html
+```
 
 Enjoy the result!
 
